@@ -1,34 +1,22 @@
-# spilhaus
+# Spilhaus map projection in Python
 
-Project your maritime data onto the World Ocean.
+> [!IMPORTANT]  
+> Because [rtlemos/spilhaus](https://github.com/rtlemos/spilhaus), the repository this project is based on, has the GPL3.0 license, this code has to have necessarily the same license.
+> If you do not want to also use this license, distribute just the ouput, not the code itself.
+> For more information on how to work with the GPL3.0 license, see [this discussion](https://gist.github.com/kn9ts/cbe95340d29fc1aaeaa5dd5c059d2e60) or the [GPL FAQs](https://www.gnu.org/licenses/gpl-faq.html).
 
-![SST on Sep 16, 2019](https://github.com/rtlemos/spilhaus/blob/main/spilhaus_sst.png)
+TEXT tba
 
-To know more about the Spilhaus projection, see:
+## Changes to rtlemos
+- land mask added to differentiate between ocean data, no ocean data and land.
+  - (in the original, coloring land the same as the coldest surface temperatures hides large gaps in the World Ocean Atlas Data. This derivation includes a landmask to differentiate between data, no data and no data applicable. )
+- data source is updated to the 2023 version of the World Ocean Atlas
+- Change to vector graphics with rasterized elements
+- more documentation, at least to the parts that I understood
 
-- [Ocean Sciences with the Spilhaus Projection: A Seamless Ocean Map for 
-  Spatial Data Recognition](https://www.nature.com/articles/s41597-023-02309-6)
+https://github.com/allochthonous/spilhaus
 
-
-Currently, the Spilhaus projection is missing in PROJ, making it 
-unavailable for R and Python enthusiasts, among others: https://github.com/OSGeo/PROJ/issues/1851.
-This repo contains four scripts:
-
-- `spilhaus.R` and `spilhaus.py`, which contain the main functions that you may want to use, and
-- `example.R` and `example.py`, which demonstrate how to use the functions to create and plot a dataset using the Spilhaus projection. 
-
-In `spilhaus.*`, the functions
-
-- `from_lonlat_to_spilhaus_xy` and 
-- `from_spilhaus_xy_to_lonlat`
-
-let you move between Mercator and Spilhaus projections; the function
-
-- `make_spilhaus_xy_gridpoints`
-
-lets you create a square grid of Spilhaus coordinates; and the function
-
-- `prettify_spilhaus_df`
-
-cleans the Spilhaus dataframe and moves a few pixels around (bottom/top and 
-left/right) to make a contiguous ocean.
+## Data
+- [WORLD OCEAN ATLAS 2023 Product Documentation](https://www.ncei.noaa.gov/data/oceans/woa/WOA23/DOCUMENTATION/WOA23_Product_Documentation.pdf)
+- https://www.ncei.noaa.gov/products/world-ocean-atlas or https://www.ncei.noaa.gov/thredds-ocean/catalog/woa23/DATA/catalog.html 
+- 
