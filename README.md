@@ -6,9 +6,8 @@
 > For more information on how to work with the GPL3.0 license, see [this discussion](https://gist.github.com/kn9ts/cbe95340d29fc1aaeaa5dd5c059d2e60) or the [GPL FAQs](https://www.gnu.org/licenses/gpl-faq.html).
 
 TEXT tba
-![](./sst_spilhaus_dark.png) 
 
-
+<img src="./sst_spilhaus_dark.png" align="center" height="800"/>
 
 ## Data
 - [WORLD OCEAN ATLAS 2023 Product Documentation](https://www.ncei.noaa.gov/data/oceans/woa/WOA23/DOCUMENTATION/WOA23_Product_Documentation.pdf)
