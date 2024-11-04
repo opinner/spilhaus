@@ -9,12 +9,12 @@ TEXT tba
 
 ## Changes to rtlemos
 - land mask added to differentiate between ocean data, no ocean data and land.
-  - (in the original, coloring land the same as the coldest surface temperatures hides large gaps in the World Ocean Atlas Data. This derivation includes a landmask to differentiate between data, no data and no data applicable. )
+  - (in the original, coloring land the same as the coldest surface temperatures hides large gaps in the World Ocean Atlas Data. This derivation includes a landmask to differentiate between data, no data and no data applicable.) https://github.com/allochthonous/spilhaus
 - data source is updated to the 2023 version of the World Ocean Atlas
 - Change to vector graphics with rasterized elements
 - more documentation, at least to the parts that I understood
 
-https://github.com/allochthonous/spilhaus
+
 
 ## Data
 - [WORLD OCEAN ATLAS 2023 Product Documentation](https://www.ncei.noaa.gov/data/oceans/woa/WOA23/DOCUMENTATION/WOA23_Product_Documentation.pdf)
