@@ -1,7 +1,7 @@
 # Spilhaus map projection in Python
 
 > [!IMPORTANT]  
-> Because [rtlemos/spilhaus](https://github.com/rtlemos/spilhaus), the repository this project is based on, has the GPL3.0 license, this code has to have necessarily the same license.
+> Because [rtlemos/spilhaus](https://github.com/rtlemos/spilhaus), the repository this project is based on, is licensed under GPL3.0, this repository has to have necessarily the same license.
 > If you do not want to also use this license, distribute just the ouput, not the code itself.
 > For more information on how to work with the GPL3.0 license, see [this GitHub discussion](https://gist.github.com/kn9ts/cbe95340d29fc1aaeaa5dd5c059d2e60) or the [GPL FAQs](https://www.gnu.org/licenses/gpl-faq.html).
 
